@@ -1,0 +1,10 @@
+@ScoreBoard_ASP_HostAddress = https://localhost:7009
+
+GET {{ScoreBoard_ASP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ScoreBoard_ASP_HostAddress}}/weatherforecast
+
+###
